@@ -1,0 +1,122 @@
+  <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  
+<meta name="viewport" content="width=device-width, initial-scale=">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	 <link rel="stylesheet" href="Style.css">
+   
+   	  <meta charset="utf-8">
+      <title>Paris</title>
+	  </head>
+	  
+		  <style>
+	  #footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: blue;
+   color: white;
+   text-align: center;
+}
+body {
+	  background-color: lightblue;
+      }
+</style>
+   <body>
+   <section>
+       <div class="navbar">
+  <a href="Index.html">Home</a>
+  <a href="Events.html">Events</a>
+   <div class="dropdown">
+    <button class="dropbtn">Lifestyle
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="FF.html">Fashion</a>
+      <a href="Food.html">Food</a>
+      <a href="lifestyle.html">Tourist destinations</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Contacts
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Newsletter.html">Newsletter</a>
+    </div>
+  </div>
+</section><br>
+
+            <p>Send Us Your Feedback Back</p>
+         </section>
+	  
+          <h1>Feedback Form</h1>
+		  
+		<form action="Index.html" name="feedback" onsubmit="return validateForm()" method="post"">
+		    <label for="fname"> First name: </label> <br>
+			<input type="text" id="fname" name="fname"> <br>
+			    <label for="lname"> Last name: </label> <br>
+				<input type="text" id="lname" name="lname" > <br>
+				<label for="Contact"> Contact: </label> <br>
+				<input type="region" id="lname" name="region" > <br>
+			<label for="country"> Country: </label> <br>
+			<input type="text" id="country" name="country" > <br><br>
+			
+			<label for="female"> Female </label>
+            <input type="radio" id="female" >
+            <label for="male"> Male </label>
+            <input type="radio" id="male" ><br><br>
+                       
+		  <script>
+	function validateForm() {
+  var x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}
+	</script>  
+	
+  <label for="comment">Leave a Comment:</label><br>
+  <input type="comment" id="email" name="Comment"><br><br> 
+  <input type="submit" value="Submit">
+   
+</form><br><br> 
+<h3>Contact Us</h3>
+<li>
+<ob>76019035</ob>
+</li>
+<li>
+<ob>Mthunzimpho@gmail</ob>
+</li>
+<li>
+<ob>Paris</ob>
+</li>
+     <div id="footer">
+         <p>Created by <a href="#">Copyright@ 2021 Mpho Mthunzi</a></p>
+		 <section class="bg-dark">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+    </section>
+      </div>
+
+   </body>
+
+</html>
